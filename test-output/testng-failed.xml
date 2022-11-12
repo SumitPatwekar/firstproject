@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="4" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="4" name="Test(failed)">
+    <classes>
+      <class name="com.saucedemo.testClasses.TestCasesAll">
+        <methods>
+          <include name="TC02_VerifyLogout"/>
+          <include name="TC04_Verify_allTheProductAddedtoCart"/>
+          <include name="setUp"/>
+          <include name="TC01_VerifyLogin"/>
+          <include name="TC03_VerifyBagProductAddedtoCart"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.saucedemo.testClasses.TestCasesAll -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

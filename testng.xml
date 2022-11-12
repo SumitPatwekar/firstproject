@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="4" name="Suite">
+  <test thread-count="4" name="Test">
+    <classes>
+      <class name="com.saucedemo.testClasses.TC01_LoginActivityValidation"/>
+      <class name="com.saucedemo.testClasses.Verify_allproductAddToCart"/>
+      <class name="com.saucedemo.testClasses.VerifyBackpackProductAddtocart"/>
+      <class name="com.saucedemo.testClasses.TC04_AllProducts_addtoCart"/>
+      <class name="com.saucedemo.testClasses.TC02_LogOutActivity"/>
+      <class name="com.saucedemo.testClasses.TestNg"/>
+      <class name="com.saucedemo.testClasses.TestCasesAll"/>
+      <class name="com.saucedemo.testClasses.VerifyLoginPageFunctionality"/>
+      <class name="com.saucedemo.testClasses.TC03_BagProductAddtocart"/>
+      <class name="com.saucedemo.testClasses.VerifyLogoutFunctionality"/>
+      <class name="com.saucedemo.testClasses.TestBaseClass"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
